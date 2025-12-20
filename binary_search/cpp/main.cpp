@@ -70,7 +70,8 @@ int main(){
     std::cout << std::endl;
     std::cout << linear_search(arr, 100, value) << std::endl;
     std::cout << binary_search(arr, 100, value) << std::endl;
-
+    
+    std::cout << "\n"  << (int)'A' << std::endl;
 
     return 0;
 }
