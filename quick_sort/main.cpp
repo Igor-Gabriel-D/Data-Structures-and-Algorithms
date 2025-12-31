@@ -39,7 +39,7 @@ void quick_sort(int arr[], int min, int pivot){
 
     swap(arr, pivot, i);
 
-    quick_sort(arr, 0, i-1);
+    quick_sort(arr, min, i-1);
     quick_sort(arr, i+1, pivot);
 }
 
